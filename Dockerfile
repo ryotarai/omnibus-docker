@@ -5,4 +5,4 @@ RUN apt-get update && \
   apt-add-repository -y ppa:brightbox/ruby-ng && \
   apt-get update && \
   apt-get install -y ruby2.2 ruby2.2-dev
-RUN gem install bundler omnibus
+RUN gem install bundler omnibus berkshelf test-kitchen
